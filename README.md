@@ -1,9 +1,10 @@
 # Grupo7
-
-# FRANCIS BONIFAZ 
-# SEBASTIAN NAVAS 
-# DIXON PRADO
-# KEVIN PUNINA 
+| Nombres |
+| :--- |
+| Francis Bonifaz |
+| Sebastian Navas |
+| Dixon Prado |
+| Kevin Punina |
 
 ## EJERCICIOS APE 
 ## TEMA: METODOS EN JAVA 
