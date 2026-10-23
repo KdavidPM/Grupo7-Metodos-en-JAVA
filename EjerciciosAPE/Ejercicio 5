@@ -1,0 +1,22 @@
+// Ejercicio 5: Creación de un método con múltiples parámetros
+ 
+// Clase Calculadora
+class Calculadora {
+ 
+    // Recibe tres notas, las suma, divide entre 3 y devuelve el promedio
+    public double calcularPromedio(double n1, double n2, double n3) {
+        double suma = n1 + n2 + n3;
+        double promedio = suma / 3;
+        return promedio;
+    }
+}
+ 
+// Clase principal (prueba)
+public class Ejercicio5 {
+    public static void main(String[] args) {
+        Calculadora calc = new Calculadora();
+ 
+        double promedio = calc.calcularPromedio(8.0, 9.0, 7.0);
+        System.out.println("El promedio es: " + promedio);
+    }
+}
