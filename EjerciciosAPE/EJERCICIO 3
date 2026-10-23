@@ -1,0 +1,15 @@
+Ejercicio 3: Parámetros vs. Argumentos 
+Enunciado: En el siguiente fragmento de código, identifica claramente cuáles son los parámetros y cuáles son los argumentos, explicando brevemente la diferencia entre ambos: 
+public double multiplicar(double x, double y) { 
+return x * y; 
+} 
+// Llamada: 
+double res = miObjeto.multiplicar(4.0, 5.5); 
+public double multiplicar(double x, double y) { 
+return x * y;
+}
+
+Parámetros: `double x` y `double y`. Son las variables que se declaran en el método `multiplicar` para recibir los valores.
+Argumentos: `4.0` y `5.5`. Son los valores que se envían al método cuando se realiza la llamada.
+Diferencia: Los parámetros se definen en la declaración del método, mientras que los argumentos son los valores que se proporcionan al llamar al método.
+Resultado: \\(4.0 \times 5.5 = 22.0\\).
